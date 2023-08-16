@@ -21,3 +21,29 @@
 }
 
 
+.fix-img{
+    position: relative;
+}
+.fix-img-hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    &:hover{
+        opacity: 1;
+    }
+}
+
+.btn-costom{
+    transform: rotate(45deg);
+    width: 15px;
+    height: 15px;
+    background: white;
+    position: absolute;
+    top: 37px;
+    left: 60px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
