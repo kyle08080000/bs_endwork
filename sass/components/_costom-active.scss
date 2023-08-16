@@ -1,0 +1,10 @@
+
+.active{
+    color: $oldGold !important;
+}
+
+a{
+    &:hover{
+        color: $oldGold !important;
+    }
+}
