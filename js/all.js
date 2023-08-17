@@ -1,4 +1,4 @@
-// 確保當文檔完全加載和初始化後再執行以下代碼
+
 
     // 選取所有帶有 'nameworkhover' 類別的元素
     var links = document.querySelectorAll('.nameworkhover');
