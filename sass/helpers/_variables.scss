@@ -417,6 +417,7 @@ $spacers: (
   4: $spacer * 1.5,
   5: $spacer * 3,
   6: $spacer * 5, //kyle
+  7: $spacer * 6, //kyle
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -538,7 +539,12 @@ $border-widths: (
   2: 2px,
   3: 3px,
   4: 4px,
-  5: 5px
+  5: 5px,
+  6: 6px, //kyle
+  7: 7px, //kyle
+  8: 8px, //kyle
+  9: 9px, //kyle
+  10: 10px //kyle
 ) !default;
 $border-style:                solid !default;
 $border-color:                $gray-300 !default;
@@ -1344,7 +1350,7 @@ $card-spacer-x:                     $spacer !default;
 $card-title-spacer-y:               $spacer * .5 !default;
 $card-title-color:                  null !default;
 $card-subtitle-color:               null !default;
-$card-border-width:                 var(--#{$prefix}border-width) !default;
+$card-border-width:                 0;//var(--#{$prefix}border-width) !default; //kyle
 $card-border-color:                 var(--#{$prefix}border-color-translucent) !default;
 $card-border-radius:                1rem;//var(--#{$prefix}border-radius) !default; //kyle
 $card-box-shadow:                   null !default;
