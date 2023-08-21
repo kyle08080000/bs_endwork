@@ -2,3 +2,15 @@
 .card-deco{
     opacity: 0;
 }
+
+
+.pet-img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    &:hover{
+    opacity: 1;
+    }
+}

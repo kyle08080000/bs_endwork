@@ -413,7 +413,7 @@ $spacers: (
   0: 0,
   1: $spacer * .25,
   2: $spacer * .5,
-  3: $spacer,
+  3: $spacer * .8,
   4: $spacer * 1.5,
   5: $spacer * 3,
   6: $spacer * 5, //kyle
@@ -1305,9 +1305,9 @@ $pagination-padding-x-lg:           1.5rem !default;
 $pagination-font-size:              $font-size-base !default;
 
 $pagination-color:                  var(--#{$prefix}link-color) !default;
-$pagination-bg:                     var(--#{$prefix}body-bg) !default;
+$pagination-bg:                     transparent;//var(--#{$prefix}body-bg) !default; //kyle
 $pagination-border-radius:          var(--#{$prefix}border-radius) !default;
-$pagination-border-width:           var(--#{$prefix}border-width) !default;
+$pagination-border-width:           0;//var(--#{$prefix}border-width) !default; //kyle
 $pagination-margin-start:           calc(#{$pagination-border-width} * -1) !default; // stylelint-disable-line function-disallowed-list
 $pagination-border-color:           var(--#{$prefix}border-color) !default;
 
@@ -1317,7 +1317,7 @@ $pagination-focus-box-shadow:       $focus-ring-box-shadow !default;
 $pagination-focus-outline:          0 !default;
 
 $pagination-hover-color:            var(--#{$prefix}link-hover-color) !default;
-$pagination-hover-bg:               var(--#{$prefix}tertiary-bg) !default;
+$pagination-hover-bg:               transparent;//var(--#{$prefix}tertiary-bg) !default; //kyle
 $pagination-hover-border-color:     var(--#{$prefix}border-color) !default; // Todo in v6: remove this?
 
 $pagination-active-color:           $component-active-color !default;
